@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/* CSS Document */
+#body{
+	background-color:#252525;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#wrapper{
+	background-color:#252525;
+}
+
+#masthead{
+	background-color: #252525;
+	width: 100%;
+	height: 9.5%;
+	z-index: 1000;
+	position: fixed;
+}
+
+#masthead #innermasthead ul li {
+	color: #FFFFFF;
+	list-style: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	display: inline-block;
+	padding-right: 2%;
+	padding-top: 1.8%;
+	
+}
+
+#masthead #innermasthead ul li a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+#masthead #innermasthead ul li a:hover{
+	text-decoration: none;
+	color: #ed1c24;
+}
+
+#innermasthead {
+	height: 9.5%;
+	width: 100%;
+}
+
+#firstnav{
+	padding-left: 3%;
+}
+
+#logo{
+	width: 12%;
+	padding-top: 1.5%;
+	padding-left: 2%;
+	float: left;
+}
+
+#heroimage{
+	background-image: url("../Images/heroimage_07.jpg");
+	min-height: 395px;
+	background-repeat: no-repeat;
+	background-position:center;
+	position: relative;
+	background-size: cover;
+}
+
+section{
+	width: 50%;
+	margin: 0 auto;
+}
+
+h1{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-style: bold;
+	color: #F43030;
+	padding-top: 2%;
+}
+
+p{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #FFF;
+	font-size: 80%;
+	line-height: 200%;
+	padding-bottom: 2%;
+	
+}
+
+#graphicpic{
+	background-image:url(../Images/Art_photo_10.jpg);
+	min-height: 239px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+#webpic{
+	background-image: url("../Images/web_pic_12.jpg");
+	min-height: 274px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+#speakercolor{
+	background-color: #F43030;
+}
+
+#headercolorchange{
+	color: #252525;
+	padding-bottom: 2%;
+}
+
+#ericmeyerpic img{
+	float: left;
+	size: 50%;
+	padding-right: 1.5%;
+	padding-bottom: 1.5%;
+}
+
+#Zeldmanpic img {
+	float: right;
+	size: 90%;
+	padding-left: 2%;
+}
+
+a #button{
+	background-color: #F43030;
+	color: #FFF;
+	border: none;
+	height: 60%;
+	width: 25%;
+	font-size: 15px;
+}
+
+a #button:hover{
+	background-color: #c42424;
+}
+
+footer{
+	background-color: #F43030;
+	height: 150px;
+}
+
+#pageFooter{
+	width: 50%;
+	margin: 0 auto;
+}
+
+#pageFooter ul li {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 80%;
+	display: inline-block;
+	padding-right: 2%;
+	padding-top: 1.5%;
+}
+
+#pageFooter ul li a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+@media only screen and (max-width: 1200px){
+	#body{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	
+	#body{
+		width: 100%;
+	}
+	
+	#masthead{
+		width: 100%
+	}
+
+}
+
+@media only screen and (max-width: 320px){
+	
+	#body{
+		width: 100%;
+	}
+}
+
