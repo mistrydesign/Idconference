@@ -55,7 +55,7 @@
 }
 
 #heroimage{
-	background-image: url("../images/heroimage_07.jpg");
+	background-image: url("images/heroimage_07.jpg");
 	min-height: 395px;
 	background-repeat: no-repeat;
 	background-position:center;
@@ -85,7 +85,7 @@ p{
 }
 
 #graphicpic{
-	background-image:url(../Images/Art_photo_10.jpg);
+	background-image:url('images/Art_photo_10.jpg');
 	min-height: 239px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -94,7 +94,7 @@ p{
 }
 
 #webpic{
-	background-image: url("../Images/web_pic_12.jpg");
+	background-image: url('images/web_pic_12.jpg');
 	min-height: 274px;
 	background-repeat: no-repeat;
 	background-position: center;
